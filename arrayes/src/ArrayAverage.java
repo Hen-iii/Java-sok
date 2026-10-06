@@ -1,0 +1,9 @@
+void main() {
+    int[] arr = { 12, 45, 67, 89, 100, 23, 3456, 897, 452, 444, 899, 700 };
+    int ossz=0;
+    for(int i=0;i<arr.length-1;i++){
+        ossz+=arr[i];
+    }
+    int atl=ossz/arr.length;
+    IO.println(atl);
+}
